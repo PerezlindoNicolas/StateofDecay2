@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img class="logo" src="./imagenes/logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/habilidades.html">habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/rasgos.html">Rasgos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <h1>🧟‍♂️ Bienvenido a State of Decay 2: Sobrevive, Lidera, Reconstruye</h1>
+
+
+            <p>State of Decay 2 es un videojuego de supervivencia y mundo abierto desarrollado por Undead Labs y
+                publicado por Xbox Game Studios. Lanzado originalmente en 2018, el juego nos transporta a un Estados
+                Unidos postapocalíptico asolado por una epidemia zombi, donde la humanidad lucha por sobrevivir en
+                comunidades aisladas y constantemente amenazadas.
+
+                A diferencia de otros títulos del género, State of Decay 2 se enfoca tanto en la acción como en la
+                gestión de recursos y la toma de decisiones estratégicas. El jugador no controla a un solo protagonista,
+                sino que lidera una comunidad de sobrevivientes, cada uno con habilidades, personalidades y relaciones
+                únicas. La clave del éxito radica en mantener el equilibrio entre la exploración, el combate, la
+                construcción de la base, y el bienestar emocional y físico de los miembros del grupo.
+
+                Con soporte para modo cooperativo hasta cuatro jugadores, un sistema dinámico de eventos y una atmósfera
+                inmersiva, State of Decay 2 ofrece una experiencia intensa y emocional, donde cada elección puede marcar
+                la diferencia entre la vida y la muerte.</p>
+        </section>
+        <section class="navcoches">
+            <a href="#vehiculos">Vehículos</a>
+            <a href="#armas">Armas</a>
+            <a href="#mapas">Mapas</a>
+        </section>
+
+
+        <section id="vehiculos">
+            <h2>Los coches en State of Decay 2: supervivencia sobre ruedas</h2>
+            <p>En State of Decay 2, los coches no son solo un medio de transporte: son herramientas de supervivencia
+                esenciales. En un mundo infestado de zombis, recorrer largas distancias a pie puede ser una sentencia de
+                muerte. Aquí es donde entran en juego los vehículos. Desde camionetas resistentes hasta deportivos
+                veloces, cada coche tiene ventajas únicas que pueden marcar la diferencia entre la vida y la muerte.
+
+                Los vehículos no solo te permiten moverte rápidamente entre ubicaciones, sino que también sirven como
+                protección móvil contra hordas y pueden almacenar recursos en su maletero. Eso sí, requieren
+                mantenimiento: se quedan sin gasolina, se dañan con facilidad si atropellas demasiados enemigos, y
+                algunos necesitan ser reparados antes de poder usarlos.
+
+                Dominar el uso de los coches en State of Decay 2 es clave para sobrevivir, explorar nuevos territorios y
+                mantener viva a tu comunidad.</p>
+
+            </div>
+
+            <div>
+                <h3>🚗 Tipos de coches y sus funciones</h3>
+                <p>No todos los vehículos son iguales. Algunos son rápidos, otros resistentes, y algunos ofrecen gran
+                    capacidad de carga. Aquí tienes los principales tipos:</p>
+                <ul>
+                    <div>
+                        <li>
+                            <h3>Deportivos:</h3>
+                            <p>rápidos, ideales para explorar o escapar, pero con poco espacio y resistencia.</p>
+                            <label for="deportivos">Deportivos:</label>
+                            <select name="deportivos" id="deportivos">
+                                <option value="roadRacer">Road Racer</option>
+                                <option value="Vagabond">Vagabond</option>
+                                <option value="maximilian">Maximilian</option>
+                                <option value="brock">Brock</option>
+                                <option value="miragra">Miragra</option>
+                            </select>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <h3>SUVs y camionetas:</h3>
+                            <p>buen balance entre velocidad, resistencia y almacenamiento.</p>
+                            <label for="suvs">SUVs y camionetas:</label>
+                            <select name="suvs" id="suvs">
+                                <option value="pilato">Pilato</option>
+                                <option value="pilatoCR">Pilato CR (militar)</option>
+                                <option value="rangerSUV">Ranger SUV</option>
+                                <option value="utilityTruck">Utility Truck</option>
+                                <option value="rhamesV">Rhames V</option>
+                                <option value="norma">Norma</option>
+                            </select>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <h3>Camiones de carga y furgonetas:</h3>
+                            <p>lentos pero con gran capacidad de carga y buena protección.</p>
+                            <label for="van" id="van"></label>
+                            <select name="van" id="van">
+                                <option value="vanPasajeros">Van Pasajeros</option>
+                                <option value="vanReparaciones">Van Reparaciones</option>
+                                <option value="vanNoticias">Van Noticias</option>
+                                <option value="vanCarga">Van Carga</option>
+                                <option value="ambulancia">Ambulancia</option>
+                                <option value="vandito">Vandito</option>
+                            </select>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <h3>Vehículos especiales:</h3>
+                            <p>modificados, con armaduras, almacenamiento mejorado o armas incorporadas (requieren
+                                planos y
+                                kits de mejora).</p>
+
+                            <label for="especiales">Especiales:</label>
+                            <select name="especiales" id="especiales">
+                                <option value="vagabundoApocaliptico">Vagabundo Apocalíptico</option>
+                                <option value="trialBeast">Trail Beast</option>
+                                <option value="meganegociador">Meganegociador</option>
+                                <option value="broganTrekker">Brogan Trekker</option>
+                                <option value="cargoCult">Cargo Cult</option>
+                                <option value="hellion">Hellion</option>
+                                <option value="vagabundoVandalo">Vagabundo Vandalo</option>
+                                <option value="marauder">Marauder</option>
+                                <option value="burninator">Burninator</option>
+                                <option value="pyrohawk">Pyrohawk</option>
+                                <option value="meatwagon">Meatwagon</option>
+                            </select>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>🔧 Cómo mantener tu coche en buen estado</h2>
+                <ul>
+                    <li>
+                        <h3>Gasolina:</h3>
+                        <p>Cada coche necesita combustible. Lleva una gasolina de repuesto en el maletero.</p>
+                    </li>
+                    <li>
+                        <h3>Reparaciones:</h3>
+                        <p>Usa kits de reparación para arreglar coches dañados. Evita conducir por campos o chocar con
+                            zombis innecesariamente.</p>
+                    </li>
+                    <li>
+                        <h3>Desaparición de vehículos:</h3>
+                        <p>Si te alejas demasiado, un coche puede desaparecer. Usa el almacén de vehículos en tu base
+                            para guardarlos.</p>
+                        </ol>
+                    <li>
+                        <h3>Estacionamiento estratégico:</h3>
+                        <p>Siempre aparca en zonas despejadas y con fácil salida. Evita bloquearte con hordas.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>⚠️ Consejos clave</h2>
+                <ul>
+                    <li>🚧 No abuses del atropello: daña el coche rápidamente.</li>
+                    <li>🔄 Cambia de coche cuando esté muy dañado: evita que explote.</li>
+                    <li>🧭 Utiliza los coches como puntos móviles de reabastecimiento.</li>
+                    <li>🏁 Busca vehículos únicos repartidos por el mapa</li>
+                    <li>🛠️ Mejora coches comunes en tu taller de vehículos si tienes los planos.</li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+        <section id="armas">
+            <h2>🔫 Las armas en State of Decay 2: supervivencia armada</h2>
+            <div>
+                <p>En State of Decay 2, las armas son tan importantes como el sigilo, la estrategia o el vehículo que
+                    conduces. Elegir bien tu armamento puede marcar la diferencia entre limpiar una infestación o acabar
+                    rodeado y sin opciones.</p>
+            </div>
+
+            <h2>⚔️ Tipos de armas</h2>
+
+            <div class="cyf">
+                <div class="cuerpo">
+
+                    <h3>🗡️ Armas cuerpo a cuerpo</h3>
+                    <ul>
+                        <li>
+                            <h4>Ligeras:</h4>
+                            <p>espadas, katanas, machetes, cuchillos. — más rápidas, causan sangrado, decapitan con
+                                facilidad.</p>
+                        </li>
+                        <li>
+                            <h4>Contundentes:</h4>
+                            <p>bates de béisbol, mazos, palancas, tuberías. — daño por impacto, ideales para
+                                aturdir,
+                                derribar y romper puertas.</p>
+                        </li>
+                        <li>
+                            <h4>Pesadas:</h4>
+                            <p>mazas, hachas, bates grandes — mucho daño, pero más lentas y requieren resistencia.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="fuego">
+                    <h3>🔫 Armas de fuego</h3>
+                    <ul>
+                        <li>
+                            <h4>Pistolas:</h4>
+                            <p> fáciles de manejar, poco ruido, ideales para emergencias.</p>
+                        </li>
+                        <li>
+                            <h4>Escopetas:</h4>
+                            <p>gran daño a corta distancia, pero muy ruidosas.</p>
+                        </li>
+                        <li>
+                            <h4>Rifles automáticos:</h4>
+                            <p>equilibrio entre daño, cadencia y alcance.</p>
+                        </li>
+                        <li>
+                            <h4>Rifles de francotirador:</h4>
+                            <p>mucho alcance, perfectos para eliminar amenazas a distancia.</p>
+                        </li>
+                        <li>
+                            <h4>Armas especiales:</h4>
+                            <p>lanzagranadas, armas silenciadas, armamento único.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="muc">
+                <div>
+                    <h2>🛠️ Mantenimiento y cuidado</h2>
+                    <ul>
+                        <li>
+                            <h4>🧼Reparaciones:</h4>
+                            <p>usa kits de reparación de armas para mantenerlas efectivas.</p>
+                        </li>
+                        <li>
+                            <h4>🛢️Munición:</h4>
+                            <p> lleva siempre munición extra, cada arma requiere un tipo específico.</p>
+                        </li>
+                        <li>
+                            <h4>⚠️Durabilidad:</h4>
+                            <p> las armas se desgastan, no las uses sin control.</p>
+                        </li>
+                        <li>
+                            <h4>🔧 Modificaciones:</h4>
+                            <p>Usalos para personalizar y mejorar tus armas.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>📦 Uso estratégico</h2>
+                    <ul>
+                        <li>🏃 Cuerpo a cuerpo para exploración silenciosa.</li>
+                        <li>🔥 Armas de fuego para emergencias o limpiar hordas.</li>
+                        <li>🎯 Francotiradores para eliminar enemigos desde posiciones seguras.</li>
+                        <li>⚔️ Combina tipos de armas según la misión.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>⚠️ Consejos clave</h2>
+                    <ul>
+                        <li>✅ No lleves solo armas de fuego, el ruido atrae hordas.</li>
+                        <li>✅ Cambia el arma cuando la durabilidad sea baja.</li>
+                        <li>✅ Entrena a tus supervivientes en el uso de diferentes tipos de armas.</li>
+                        <li>✅ Guarda las armas raras para situaciones críticas.</li>
+                        <li>✅ Administra bien la munición; no siempre es fácil de encontrar.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="mapas">
+            <h2 class="titulo">🌍 Los Mapas en State of Decay 2: Territorio, Estrategia y Supervivencia</h2>
+            <p class="texto">En State of Decay 2, los mapas no son solo escenarios: son el campo de batalla de tu
+                comunidad, el
+                terreno donde construirás tu base, buscarás recursos y enfrentarás las amenazas del apocalipsis.
+                Elegir el mapa adecuado puede marcar la diferencia entre prosperar… o ser devorado por los zombis.
+
+                El juego ofrece cinco mapas jugables, cada uno con su propia geografía, distribución de recursos,
+                bases disponibles y estilo de juego. Aunque todos comparten las mecánicas principales, cada uno
+                tiene características únicas que favorecen distintos enfoques estratégicos.</p>
+            <div class="maps">
+                <div class="cascade">
+                    <h2 class="tituloc">🏞️ Cascade Hills</h2>
+                    <p class="textoc">Un mapa montañoso con pueblos dispersos, puentes, y un diseño que mezcla
+                        naturaleza
+                        con urbanismo.
+                        Tiene buenas carreteras y abundancia de vehículos, pero algunas zonas pueden resultar incómodas
+                        para
+                        moverse por su desnivel. Perfecto para quienes buscan una experiencia equilibrada y fácil de
+                        aprender.</p>
+                    <img class="imgc" src="./imagenes/mapas/cascade.png" alt="cascade hills">
+                </div>
+                <div class="meagher">
+                    <h2 class="titulom">🌾 Meagher Valley</h2>
+                    <p class="textom">El más llano de todos. Es ideal para los que quieren moverse rápido entre zonas y
+                        hacer recolección
+                        eficiente. Sus campos abiertos y estructuras industriales facilitan el acceso a recursos como
+                        materiales de construcción y alimentos. Además, sus bases están bien ubicadas y son fáciles de
+                        defender.</p>
+                    <img class="imgm" src="./imagenes/mapas/meagher.png" alt="meagher valley">
+                </div>
+                <div class="drucker">
+                    <h2 class="titulod">🏜️ Drucker County</h2>
+                    <p class="textod">Este mapa desértico y rocoso ofrece una experiencia más exigente. El terreno
+                        accidentado y los
+                        caminos bloqueados requieren planificación al moverse. A cambio, proporciona excelentes bases,
+                        muchas zonas industriales y algunos de los mejores recursos para construir. Ideal para jugadores
+                        que
+                        priorizan fortificaciones grandes y producción avanzada.</p>
+                    <img class="imgd" src="./imagenes/mapas/drucker.png" alt="drucker county">
+                </div>
+                <div class="providence">
+                    <h2 class="titulop">🌲 Providence Ridge</h2>
+                    <p class="textop">Ubicado en una zona forestal, este mapa destaca por su verticalidad, caminos
+                        estrechos
+                        y vistas
+                        panorámicas. Ofrece una experiencia más "natural", con bosques densos y menos estructuras
+                        urbanas.
+                        Moverse aquí puede ser más lento, pero sus bases están bien posicionadas para defensas
+                        estratégicas.
+                        Excelente para quienes buscan un desafío táctico mayor.</p>
+                    <img class="imgp" src="./imagenes/mapas/providence.png" alt="providence ridge">
+                </div>
+                <div class="trumbull">
+                    <h2 class="titulov">🧱 Trumbull Valley</h2>
+                    <p class="textov">El único mapa basado en la historia del primer State of Decay. Aquí se mezcla la
+                        jugabilidad sandbox
+                        con misiones narrativas y eventos especiales. El mapa es más denso y peligroso, con nuevas
+                        amenazas
+                        y zombis de plaga más frecuentes. Ideal para jugadores experimentados y amantes del lore.</p>
+                    <img class="imgv" src="./imagenes/mapas/trumbull.png" alt="trumbull valley">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 State of Decay</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
