@@ -1,0 +1,289 @@
+#armas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#armas .cyf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+  padding: 0;
+}
+#armas .muc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #033834;
+  color: #fcfcfc;
+  font-family: "Work Sans", sans-serif;
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  padding: 0px 20px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #13584f;
+  text-align: center;
+}
+header .logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 0px 20px;
+  padding: 0px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 16px;
+}
+.navbar .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.container-fluid {
+  background-color: #033834;
+  border-bottom: 2px solid #8b4b0f;
+  padding: 0;
+  margin: 0;
+}
+
+.collapse {
+  justify-content: space-evenly;
+  background-color: #8b4b0f;
+  margin: 5%;
+}
+.collapse.navbar-collapse {
+  justify-content: space-around;
+  padding: 10px 10px;
+}
+
+h1, h2, h3 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  text-decoration: underline;
+  background-color: #8b4b0f;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  background-color: #8b4b0f;
+  color: white;
+  width: 100%;
+}
+
+h3 {
+  text-align: start;
+  text-decoration: underline;
+}
+
+.navcoches {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+  background-color: #13584f;
+  margin: 10px 0;
+}
+.navcoches a {
+  color: white;
+  text-decoration: underline;
+  padding: 0px 10px;
+  background-color: #8b4b0f;
+}
+
+.maps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 768px) {
+  .maps {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cascade, .meagher, .drucker, .providence, .trumbull {
+  display: grid;
+  grid-template-areas: "titulo titulo" "img text";
+  grid-template-rows: 1fr 3fr;
+  justify-items: center;
+  border: 2px dashed #8b4b0f;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navhabilidades {
+  display: flex;
+  flex-direction: column;
+  text-decoration: underline;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+  padding: 0;
+}
+.navhabilidades a {
+  color: white;
+  text-decoration: underline;
+  padding: 0px 10px;
+}
+
+#habilidades li {
+  text-decoration: underline;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+  padding: 0;
+}
+
+.tablacardio {
+  width: 30%;
+  border-collapse: separate;
+  margin: 20px auto;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4e8;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tablacardio th, .tablacardio td {
+  border: 1px solid #ccc;
+  padding: 5px 0px;
+  text-align: center;
+}
+.tablacardio th {
+  background-color: #dcd9c7;
+  font-weight: bold;
+}
+.tablacardio tr:nth-child(even) {
+  background-color: #eeeeda;
+}
+.tablacardio tr:hover {
+  background-color: #d1d0b8;
+}
+
+.cardio h3 {
+  margin: 0;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.cardio p {
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.espcardio ul li {
+  text-decoration: underline;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+  padding: 0;
+}
+
+.accordion {
+  border: 2px solid #8b4b0f;
+  border-radius: 10px;
+  width: auto;
+}
+.accordion-body {
+  text-align: start;
+  background-color: #13584f;
+  padding: 5px 0px;
+  border: 2px solid #8b4b0f;
+}
+.accordion-body li {
+  text-decoration: underline;
+  background-color: #8b4b0f;
+  border: 1px solid #8b4b0f;
+  width: 16%;
+  border-radius: 6px;
+  margin: 10px 0px;
+  text-align: start;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+  padding: 0;
+}
+.accordion-body p {
+  text-align: justify;
+  font-size: 13px;
+  padding: 0px 15px;
+}
+.accordion-header {
+  background-color: #8b4b0f;
+  color: white;
+  padding: 5px 5px;
+  border-bottom: 1px solid #eee;
+}
+.accordion-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-align: left;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  background-color: #13584f;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #13584f;
+}
+
+/*# sourceMappingURL=estilos.css.map */
