@@ -1,0 +1,61 @@
+
+// ACCORDION
+.accordion {
+  border: 2px solid $accent-bg;
+  border-radius: 10px;
+  width: auto;
+
+  &-body {
+    text-align: start;
+    background-color: $secondary-bg;
+    padding: 5px 0px;
+    border: 2px solid $accent-bg;
+
+    li {
+      text-decoration: underline;
+      background-color: $accent-bg;
+      border: 1px solid $accent-bg;
+      width: 16%;
+      border-radius: 6px;
+      margin: 10px 0px;
+      text-align: start;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: $font-main;
+      padding: 0;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 13px;
+      padding: 0px 15px;
+    }
+  }
+
+  &-header {
+    background-color: $accent-bg;
+    color: white;
+    padding: 5px 5px;
+    border-bottom: 1px solid #eee;
+  }
+
+  &-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    background-color: $secondary-bg;
+
+    &:not(.collapsed) {
+      color: white;
+      background-color: $secondary-bg;
+    }
+  }
+}
+

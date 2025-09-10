@@ -1,0 +1,91 @@
+
+// NAV HABILIDADES
+.navhabilidades {
+  display: flex;
+  flex-direction: column;
+  text-decoration: underline;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: $font-main;
+  padding: 0;
+
+  a {
+    color: white;
+    text-decoration: underline;
+    padding: 0px 10px;
+  }
+}
+
+#habilidades li {
+  text-decoration: underline;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: $font-main;
+  padding: 0;
+}
+
+// TABLA CARDIO
+.tablacardio {
+  width: 30%;
+  border-collapse: separate;
+  margin: 20px auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4e8;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 5px 0px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #dcd9c7;
+    font-weight: bold;
+  }
+
+  tr {
+    &:nth-child(even) {
+      background-color: #eeeeda;
+    }
+    &:hover {
+      background-color: #d1d0b8;
+    }
+  }
+}
+
+// CARDIO
+.cardio {
+  h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+
+.espcardio ul li {
+  text-decoration: underline;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: $font-main;
+  padding: 0;
+}

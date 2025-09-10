@@ -1,0 +1,110 @@
+
+// BASE
+body {
+  background-color: $primary-bg;
+  color: $light-text;
+  font-family: $font-alt;
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  padding: 0px 20px;
+  font-family: $font-main;
+  font-weight: bold;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+li {
+  list-style: none;
+}
+
+// HEADER y LOGO
+header {
+  background-color: $secondary-bg;
+  text-align: center;
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 0px 20px;
+    padding: 0px;
+  }
+}
+// NAVBAR
+.navbar {
+  &.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+.container-fluid {
+  background-color: $primary-bg;
+  border-bottom: 2px solid $accent-bg;
+  padding: 0;
+  margin: 0;
+}
+
+.collapse {
+  justify-content: space-evenly;
+  background-color: $accent-bg;
+  margin: 5%;
+
+  &.navbar-collapse {
+    justify-content: space-around;
+    padding: 10px 10px;
+  }
+}
+
+// TITULOS
+h1, h2, h3 {
+  font-family: $font-main;
+  font-weight: bold;
+}
+
+h1 {
+  text-decoration: underline;
+  background-color: $accent-bg;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  background-color: $accent-bg;
+  color: white;
+  width: 100%;
+}
+
+h3 {
+  text-align: start;
+  text-decoration: underline;
+}
+
+
+
+

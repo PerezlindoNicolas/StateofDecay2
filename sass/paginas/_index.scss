@@ -1,0 +1,71 @@
+
+// ARMAS
+
+#armas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .cyf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    padding: 0;
+}
+    .muc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+}
+
+// VEHICULOS
+.navcoches {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+  background-color: $secondary-bg;
+  margin: 10px 0;
+
+  a {
+    color: white;
+    text-decoration: underline;
+    padding: 0px 10px;
+    background-color: $accent-bg;
+  }
+}
+
+// MAPS & REGIONES
+.maps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+@mixin region-box {
+  display: grid;
+  grid-template-areas:
+    "titulo titulo"
+    "img text";
+  grid-template-rows: 1fr 3fr;
+  justify-items: center;
+  border: 2px dashed $accent-bg;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.cascade, .meagher, .drucker, .providence, .trumbull {
+  @include region-box;
+}
